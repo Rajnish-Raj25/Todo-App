@@ -7,7 +7,7 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: antiquewhite;
+  background-color: rgb(241, 225, 203);
   display: flex;
 }
 .todo_container {
