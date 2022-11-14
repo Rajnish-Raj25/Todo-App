@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+}
+.todo_container {
+  width: 60%;
+  height: 86%;
+  /* height: auto; */
+  margin: auto;
+  margin-top: 4rem;
+  background-color: #f5cd79;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 3px 2px lightgray;
+}
+.todo_logo img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.todo_logo h3 {
+  padding: 0.2rem;
+  color: brown;
+  font-weight: bold;
+}
+.todo_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.todo_input input {
+  width: 56%;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border: 0;
+  border-radius: 1rem 0 0 1rem;
+}
+.add_btn {
+  font-size: 1.6rem;
+  padding: 1rem;
+  background-color: white;
+  height: 3rem;
+  border-radius: 0 1rem 1rem 0;
+}
+.add_btn:hover {
+  color: green;
+  cursor: pointer;
+}
+.task {
+  width: 70%;
+  height: 60%;
+  overflow-y: auto;
+  margin: auto;
+  margin-top: 1rem;
+}
+.each_task {
+  display: flex;
+  align-items: center;
+  /* width: auto; */
+  /* height: auto; */
+  flex-wrap: wrap;
+  padding: 0.6rem;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+}
+.fa-trash-alt:hover {
+  color: red;
+}
+.remove_btn {
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  background-color: blue;
+  color: white;
+  margin: 1rem 0;
+  border: 0;
+  outline: none;
+  box-shadow: 1px 1px 2px 2px grey;
+}
+.remove_btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  gap: 1rem;
+}
+.fa-edit:hover {
+  cursor: pointer;
+  color: green;
+}
